@@ -1,0 +1,6 @@
+{
+  "name": "Remix Wizard Chess 3D",
+  "description": "Interactive 3D Gothic Cathedral Wizard Chess with sculpted stone pieces, real-time multiplayer over WebSockets, cinematic melee captures, stone shatter physics, and AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

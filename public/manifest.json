@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Wizard Chess 3D: Sanctum Edition",
+  "short_name": "WizardChess",
+  "description": "Interactive 3D Gothic Cathedral Wizard Chess with sculpted stone pieces, real-time multiplayer over WebSockets, cinematic melee captures, and stone shatter physics.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#07090e",
+  "background_color": "#07090e",
+  "categories": ["games", "entertainment", "strategy"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

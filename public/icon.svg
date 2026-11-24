@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#141926"/>
+      <stop offset="70%" stop-color="#0a0d14"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4cc"/>
+      <stop offset="45%" stop-color="#f5d76e"/>
+      <stop offset="85%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#997b1a"/>
+    </linearGradient>
+    <linearGradient id="runeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#70d6ff"/>
+      <stop offset="100%" stop-color="#0077b6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Dark Obsidian Shield Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="url(#goldGrad)" stroke-width="4" opacity="0.6"/>
+  <rect x="32" y="32" width="448" height="448" rx="80" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.4"/>
+
+  <!-- Crossed Ancient Broadswords -->
+  <g stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <path d="M 120 392 L 392 120 M 100 412 L 132 380 M 380 132 L 412 100 M 132 380 L 140 404 L 116 396 Z" fill="none"/>
+    <path d="M 392 392 L 120 120 M 412 412 L 380 380 M 132 100 L 100 132 M 380 380 L 372 404 L 396 396 Z" fill="none"/>
+  </g>
+
+  <!-- Glowing Cathedral Runic Crest -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#runeGrad)" stroke-width="2.5" opacity="0.5" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="130" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Sculpted Chess King Crown -->
+  <g filter="url(#glow)">
+    <!-- Central Cross -->
+    <path d="M 256 128 L 256 168 M 240 144 L 272 144" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="square"/>
+    <!-- Crown Spires -->
+    <path d="M 168 280 L 180 200 L 224 240 L 256 176 L 288 240 L 332 200 L 344 280 Z" fill="url(#goldGrad)"/>
+    <!-- Crown Base Band -->
+    <rect x="160" y="280" width="192" height="34" rx="4" fill="url(#goldGrad)"/>
+    <!-- Crown Jewels / Runes -->
+    <circle cx="200" cy="297" r="7" fill="#07090e"/>
+    <circle cx="256" cy="297" r="9" fill="#70d6ff"/>
+    <circle cx="312" cy="297" r="7" fill="#07090e"/>
+  </g>
+
+  <!-- Lower Altar Pedestal with Inscribed Runic Marks -->
+  <path d="M 140 334 L 372 334 L 392 374 L 120 374 Z" fill="url(#goldGrad)" opacity="0.95"/>
+  <text x="256" y="360" font-family="'Cinzel', serif" font-size="20" font-weight="900" fill="#07090e" text-anchor="middle" letter-spacing="8">SANCTUM</text>
+</svg>
